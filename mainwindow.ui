@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iconos.qrc">
+    <normaloff>:/agenda.png</normaloff>:/agenda.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuagregar_usuario">
+    <property name="title">
+     <string>menu</string>
+    </property>
+    <addaction name="actionmostrar_usuarios"/>
+    <addaction name="actionagregar_contacto"/>
+    <addaction name="separator"/>
+    <addaction name="actionsalir"/>
+   </widget>
+   <widget class="QMenu" name="menuinfo">
+    <property name="title">
+     <string>info</string>
+    </property>
+    <addaction name="actionacerca_QT"/>
+   </widget>
+   <addaction name="menuagregar_usuario"/>
+   <addaction name="menuinfo"/>
+  </widget>
+  <action name="actionsalir">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/exit.png</normaloff>:/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionacerca_QT">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/help.png</normaloff>
+     <normalon>:/help.png</normalon>:/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>acerca QT</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionmostrar_usuarios">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/agenda.png</normaloff>:/agenda.png</iconset>
+   </property>
+   <property name="text">
+    <string>mostrar usuarios</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionagregar_contacto">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/user.png</normaloff>:/user.png</iconset>
+   </property>
+   <property name="text">
+    <string>agregar contacto</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

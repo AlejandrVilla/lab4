@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>agenda.png</file>
+        <file>help.png</file>
+        <file>user.png</file>
+        <file>exit.png</file>
+        <file>menu.png</file>
+    </qresource>
+</RCC>
