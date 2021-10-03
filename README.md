@@ -17,4 +17,9 @@
 - Agregando contactos.
 
 ![](https://raw.githubusercontent.com/AlejandrVilla/lab4/main/evidencias/contacto1.png)
->Success.
+![](https://raw.githubusercontent.com/AlejandrVilla/lab4/main/evidencias/contacto2.png)
+![](https://raw.githubusercontent.com/AlejandrVilla/lab4/main/evidencias/contacto3.png)
+
+- Listando contactos.
+
+![](https://raw.githubusercontent.com/AlejandrVilla/lab4/main/evidencias/listar.png)
